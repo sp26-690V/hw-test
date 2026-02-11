@@ -1,0 +1,61 @@
+---
+title: "My Storyboard at DACSS - pages"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+Sidebar {.sidebar}
+=====================================
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+Chapter 1
+===================================== 
+
+
+### Plot 1
+
+```{r}
+## for del1Draft.rds
+link1="https://github.com/sp26-690V/hw-test/raw/main/del1Draft.rds"
+readRDS(url(link1))
+```
+
+
+Chapter 2
+===================================== 
+
+
+
+### You should write a title here!
+
+```{r}
+## for del2Draft.rds
+link2="https://github.com/sp26-690V/hw-test/raw/main/del2Draft.rds"
+readRDS(url(link2))
+```
+
+Chapter 3
+===================================== 
+
+
+### You should write a title here!
+
+```{r}
+## for del3Draft.rds
+link3="https://github.com/sp26-690V/hw-test/raw/main/del3Draft.rds"
+readRDS(url(link3))
+```
+
+
+
+References
+===================================== 
+
+
