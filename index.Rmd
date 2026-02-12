@@ -33,7 +33,7 @@ Chapter 2
 
 
 
-### Student to Teacher Ratio Bar Graph
+### Student to Teacher Ratio Histogram
 
 ```{r}
 ## for del2Draft.rds
